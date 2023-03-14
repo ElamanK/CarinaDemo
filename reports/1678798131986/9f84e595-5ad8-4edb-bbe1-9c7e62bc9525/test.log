@@ -1,0 +1,9 @@
+[2023-03-14 12:48:54] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-14 12:48:54] [1] [INFO] TEST [project-qa - loginTest] STARTED at [07:48:54 2023-03-14]
+[2023-03-14 12:48:54] [1] [INFO] Starting driver session...
+[2023-03-14 12:48:57] [1] [INFO] Driver session started.
+[2023-03-14 12:48:57] [1] [INFO] INFO: opening url 'https://www.saucedemo.com'
+[2023-03-14 12:48:58] [1] [INFO] PASS: keys 'standard_user' are sent to element 'usernameField'.
+[2023-03-14 12:48:59] [1] [INFO] PASS: keys 'secret_sauce' are sent to element 'passwordField'.
+[2023-03-14 12:49:00] [1] [INFO] PASS: element 'loginButton' is clicked.
+[2023-03-14 12:49:01] [1] [INFO] TEST [project-qa - loginTest] PASSED at [07:49:01 2023-03-14]

@@ -1,0 +1,31 @@
+[2023-03-10 02:15:31] [1] [INFO] 
+============= Test configuration =============
+env=DEMO
+selenium_url=http://localhost:4723/wd/hub
+auto_screenshot=true
+explicit_timeout=10
+project_report_directory=./reports
+max_screen_history=10
+localization_encoding=UTF-8
+language=en_US
+selenium_url=http://localhost:4723/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.deviceName=Pixel 2 ADN
+capabilities.providerOptions=options
+capabilities.automationName=uiautomator2
+capabilities.app=https://qaprosoft.s3-us-west-2.amazonaws.com/carinademoexample.apk
+capabilities.platformName=ANDROID
+capabilities.deviceType=phone
+================================================
+
+[2023-03-10 02:15:31] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-10 02:15:33] [1] [INFO] Reflections took 1738 ms to scan 23 urls, producing 3475 keys and 17843 values 
+[2023-03-10 02:15:33] [1] [INFO] [TestNG] Running:
+  C:\Users\Akmaral\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+[2023-03-10 02:15:33] [1] [INFO] Set thread-count=1
+[2023-03-10 02:15:33] [1] [INFO] Set data-provider-thread-count=1
+[2023-03-10 02:15:33] [1] [INFO] CARINA_CORE_VERSION: 8.0.4
+[2023-03-10 02:15:37] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-03-10 02:15:37] [1] [INFO] RESULT #1: TEST [project-qa - loginTest] FAIL [log=file://C:\Users\Akmaral\Desktop\Carina\project-qa\.\reports\1678457731256/ceb6975a-d1fb-49f8-889f-3a2bc726c6ab/test.log]

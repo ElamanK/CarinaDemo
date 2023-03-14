@@ -1,0 +1,75 @@
+[2023-03-14 01:13:53] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-14 01:13:53] [1] [INFO] TEST [project-qa - logout] STARTED at [08:13:53 2023-03-14]
+[2023-03-14 01:13:53] [1] [INFO] Starting driver session...
+[2023-03-14 01:13:55] [1] [INFO] Driver session started.
+[2023-03-14 01:13:55] [1] [INFO] INFO: opening url 'https://www.saucedemo.com'
+[2023-03-14 01:13:56] [1] [INFO] PASS: keys 'standard_user' are sent to element 'usernameField'.
+[2023-03-14 01:13:56] [1] [INFO] PASS: keys 'secret_sauce' are sent to element 'passwordField'.
+[2023-03-14 01:13:57] [1] [INFO] PASS: element 'loginButton' is clicked.
+[2023-03-14 01:13:58] [1] [INFO] PASS: element 'burgerMenu' is clicked.
+[2023-03-14 01:14:00] [1] [ERROR] TEST [project-qa - logout] FAILED at [08:14:00 2023-03-14] - element click intercepted: Element <button id="react-burger-menu-btn" style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; height: 100%; margin: 0px; padding: 0px; border: none; font-size: 0px; background: transparent; cursor: pointer;">...</button> is not clickable at point (30, 30). Other element would receive the click: <div class="bm-menu" style="height: 100%; box-sizing: border-box; overflow: auto;">...</div>
+  (Session info: chrome=111.0.5563.65)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-89IH4VU', ip: '10.0.0.69', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [355c540f3a37a26d75acab79595c82f7, clickElement {id=97f92a65-5f93-4eb4-bd0d-27463d83aba7}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Akmaral\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.0.0.69:4444/session..., se:cdpVersion: 111.0.5563.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (355c540f3a37a26d75acab79595c82f7)] -> xpath: //button[@id='react-burger-menu-btn']]
+Session ID: 355c540f3a37a26d75acab79595c82f7
+
+java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:57)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
+org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
+net.bytebuddy.renamed.java.lang.Object$ByteBuddy$cOU3MVN6.click(Unknown Source)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+jdk.proxy2/jdk.proxy2.$Proxy56.click(Unknown Source)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$3.doClick(ExtendedWebElement.java:1428)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1293)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1422)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1383)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:460)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:449)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:440)
+com.mycompany.carina.mydemo.uitest.components.BurgerMenu.logout(BurgerMenu.java:23)
+com.mycompany.carina.uitest.SauceDemoTestTest.logout(SauceDemoTestTest.java:56)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:806)
+org.testng.TestRunner.run(TestRunner.java:601)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
