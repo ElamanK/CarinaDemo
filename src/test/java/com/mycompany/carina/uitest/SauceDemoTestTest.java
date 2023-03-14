@@ -39,7 +39,7 @@ public class SauceDemoTestTest extends AbstractSauceDemoTest {
         HomePage homePage = loginUtils.login(R.TESTDATA.get("user"), R.TESTDATA.get("password"));
         Assert.assertTrue(homePage.isPageOpened(),"Home page is not opened");
         homePage.addProductToCart(R.TESTDATA.get("Sauce Labs Backpack"));
-        CartPage cartPage = homePage.openCart();
+        CartPage cartPage = homePage.getHeaderMenu().openCart();
         Assert.assertTrue(cartPage.isPageOpened(),"Cart page is not opened");
         Assert.assertEquals(cartPage.getNumberOfItemsInCart(),1,"Number of items is different");
         Assert.assertTrue(cartPage.isProductPresent("Sauce Labs Backpack"),"Product is not present");
@@ -53,13 +53,9 @@ public class SauceDemoTestTest extends AbstractSauceDemoTest {
         Assert.assertTrue(loginPage.isPageOpened(),"Login page is not opened");
         HomePage homePage = loginUtils.login(R.TESTDATA.get("user"),R.TESTDATA.get("password"));
         Assert.assertTrue(homePage.isPageOpened(),"Home page is not opened");
-       // move to component and click burger menu
-        homePage.getBurgerMenu().logout();
+        homePage.getHeaderMenu().getBurgerMenu().logout();
         Assert.assertTrue(loginPage.isPageOpened(),"Login page is not opened after logout");
     }
-
-
-
 
 
 }

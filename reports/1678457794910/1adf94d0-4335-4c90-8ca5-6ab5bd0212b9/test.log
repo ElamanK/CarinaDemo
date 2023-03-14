@@ -1,0 +1,11 @@
+[2023-03-10 02:16:47] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-10 02:16:47] [1] [INFO] TEST [project-qa - testAddToCartButton] STARTED at [08:16:47 2023-03-10]
+[2023-03-10 02:16:47] [1] [INFO] Starting driver session...
+[2023-03-10 02:16:49] [1] [INFO] Driver session started.
+[2023-03-10 02:16:49] [1] [INFO] INFO: opening url 'https://www.saucedemo.com'
+[2023-03-10 02:16:50] [1] [INFO] PASS: keys 'standard_user' are sent to element 'usernameField'.
+[2023-03-10 02:16:50] [1] [INFO] PASS: keys 'secret_sauce' are sent to element 'passwordField'.
+[2023-03-10 02:16:51] [1] [INFO] PASS: element 'loginButton' is clicked.
+[2023-03-10 02:16:52] [1] [INFO] PASS: element 'addToCartButton' is clicked.
+[2023-03-10 02:16:53] [1] [INFO] PASS: element 'cartButton' is clicked.
+[2023-03-10 02:16:54] [1] [INFO] TEST [project-qa - testAddToCartButton] PASSED at [08:16:54 2023-03-10]
